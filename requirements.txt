@@ -1,0 +1,20 @@
+# LLM + embeddings
+openai
+tiktoken
+
+# Vector store
+chromadb
+
+# App & config
+streamlit
+audio-recorder-streamlit
+python-dotenv
+
+# Typed models / validation
+pydantic
+
+# Dev experience
+black
+
+# Testing
+pytest

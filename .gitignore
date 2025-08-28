@@ -1,0 +1,48 @@
+# ---- Python / build ----
+__pycache__/
+*.py[cod]
+*$py.class
+.build/
+dist/
+build/
+*.egg-info/
+pip-wheel-metadata/
+
+# ---- Virtual envs ----
+.venv/
+venv/
+env/
+.conda/
+
+# ---- Tests / coverage ----
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ---- Logs / temp ----
+*.log
+logs/
+*.tmp
+*.temp
+~$*
+
+# ---- IDE / OS junk ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+.streamlit/**/secrets.toml
+
+# ---- App data (generated at runtime) ----
+# Keep book_summaries.json (input data) tracked.
+data/chroma_store/
+data/audio/
+data/mic/
+data/images/
+
+# ---- Secrets / env ----
+.env

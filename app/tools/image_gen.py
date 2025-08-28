@@ -1,0 +1,1 @@
+# To implement image generation logic
