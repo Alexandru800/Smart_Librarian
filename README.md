@@ -31,7 +31,7 @@
 ```powershell
 # 1) Create & activate a virtual environment
 python -m venv .venv
-.\.venv\Scriptsctivate
+.venv\Scripts\activate
 
 # 2) Install dependencies
 pip install -r requirements.txt
